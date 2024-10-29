@@ -11,4 +11,9 @@ def ayam(n:int) :
         n -= 1
 
 if __name__ == '__main__':
-    ayam(1)
+    try:
+        j_Ayam = int(input("Masukan jumlah ayam : ")) 
+        ayam(j_Ayam)
+        exit()
+    except ValueError :
+        print("Anda")
