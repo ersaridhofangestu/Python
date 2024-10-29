@@ -11,9 +11,10 @@ def ayam(n:int) :
         n -= 1
 
 if __name__ == '__main__':
-    try:
-        j_Ayam = int(input("Masukan jumlah ayam : ")) 
-        ayam(j_Ayam)
-        exit()
-    except ValueError :
-        print("Anda")
+    while True :
+        try:
+            j_Ayam = int(input("Masukan jumlah ayam : ")) 
+            ayam(j_Ayam)
+            exit()
+        except ValueError :
+            print("Anda")
