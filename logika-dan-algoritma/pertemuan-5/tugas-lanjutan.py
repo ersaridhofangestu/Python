@@ -17,4 +17,4 @@ if __name__ == '__main__':
             ayam(j_Ayam)
             exit()
         except ValueError :
-            print("Anda")
+            print("Anda hanya bisa memasukan nilai type integer")
