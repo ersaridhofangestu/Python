@@ -18,3 +18,6 @@ if __name__ == '__main__':
             exit()
         except ValueError :
             print("Anda hanya bisa memasukan nilai type integer")
+            
+            
+            n = 10
